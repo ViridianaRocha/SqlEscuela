@@ -41,7 +41,9 @@ CREATE TABLE `alumno` (
 
 INSERT INTO `alumno` (`Codigo`, `Nombre`, `Apellidos`, `Edad`, `Telefono`) VALUES
 ('123', 'Viridiana', 'Rocha Rosales', 20, '6568245416'),
-('456', 'Mariana', 'Soto Ortiz', 20, '6568283922');
+('456', 'Ilan', 'Robles', 21, '6567483829'),
+('789', 'Jafet', 'Vega Gomez', 20, '6564739394'),
+('012', 'Mariana', 'Soto Ortiz', 20, '6568283922');
 
 -- --------------------------------------------------------
 
@@ -84,7 +86,9 @@ CREATE TABLE `inscripcion` (
 
 INSERT INTO `inscripcion` (`Codigo_Inscripcion`, `Fecha`, `Codigo_Alumno`, `Codigo_Carrera`) VALUES
 (100, '19-feb-2025', '123', 'M'),
-(101, '20-feb-2025', '456', 'M');
+(101, '20-feb-2025', '456', 'D'),
+(102, '21-feb-2025', '789', 'E'),
+(103, '22-feb-2025', '012', 'S');
 
 --
 -- Índices para tablas volcadas
